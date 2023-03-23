@@ -371,7 +371,10 @@ img {
     height: 3px;
     background-color: #333;
     top: 75px;
-    left: 365px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
 }
 
 .choice-cont{
@@ -499,7 +502,6 @@ img {
     .sec-title::after{
         width: 80px;
         top: 60px;
-        left: 145px;
     }
     .choice-cont{
         margin-top: 10px;
