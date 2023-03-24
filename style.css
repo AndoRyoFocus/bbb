@@ -122,6 +122,7 @@ img {
     width: 100%;
     opacity: 0;
     transition: opacity .6s ease, visibility .6s ease;
+    visibility: hidden;
   }
   
   nav.globalMenuSp ul {
@@ -155,6 +156,7 @@ img {
   /* このクラスを、jQueryで付与・削除する */
   nav.globalMenuSp.active {
     opacity: 100;
+    visibility: visible;
   }
 
   .sp-h-ul{
@@ -230,7 +232,7 @@ img {
 .main-visual{
     position: relative;
     height: 92vh;
-    z-index: -2;
+    z-index: 0;
 }
 
 .mv{
